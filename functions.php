@@ -11,9 +11,10 @@ function elzero_scripts()
     // Add bootstrap and font awesome styles 
     wp_enqueue_style("bootstrap-css", get_template_directory_uri() . '/css/bootstrap.min.css');
     wp_enqueue_style("fontawesome-css", get_template_directory_uri() . '/css/fontawesome.min.css');
+    // Add main style
+    wp_enqueue_style("main-css", get_template_directory_uri() . '/css/main.css');
 
     // Add scripts 
-
     wp_deregister_script("jquery"); // Remove Registration for old JQuery    
     wp_register_script("jquery", includes_url("/js/jquery/jquert.js"), false, '', true); // Register a new JQuery in the footer
     wp_enqueue_script("jquery"); // Enquyer the new JQuery
