@@ -23,18 +23,27 @@ function elzero_scripts()
 }
 
 /*
+        ** Add Custom Menue Support
+        ** Added by @Dina 
+        */
+function elzero_register_custome_menue()
+{
+        register_nav_menu('bootstrap menu', __('Navigation Bar'));
+}
+
+/*
+        ** Display the menue
+        ** Added by @Dina 
+        */
+function elzero_bootstrap_menu()
+{
+        wp_nav_menu();
+}
+
+/*
         ** Add Actions
         ** Added by @Dina 
         ** add_action()
         */
 add_action("wp_enqueue_scripts", "elzero_scripts");
-
-/*
-        ** Add Custom Menue Support
-        ** Added by @Dina 
-        */
-function elzero_register_custome_menue() {
-        register_nav_menu('bootstrap menu', __('Navigation Bar'));
-}
-
-add_action( "init", "elzero_register_custome_menue");
+add_action("init", "elzero_register_custome_menue");
