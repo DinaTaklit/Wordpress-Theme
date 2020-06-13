@@ -1,8 +1,35 @@
+/* Body */
+body{
+  background-color: #eee;
+}
+/* /Body */
+
+/* Post */
+.main-post{
+  background-color: #fff;
+  padding: 20px;
+  border: 2px solid #d8d8d8;
+  margin-bottom: 10px;
+}
+
+.main-post h3 {
+  margin: 0 0 10px;
+  color: #777;
+  font-weight: bold;
+  letter-spacing: -1px;
+}
+.main-post .post-img{
+  display: block;
+  margin: 10px;
+}
+/* /Post*/
+
+
 /* Footer */
 .footer {
   background-color: #333;
   color: #eee;
-  padding: 20px;
+  padding: 15px;
   position: fixed;
   bottom: 0;
   left: 0;
