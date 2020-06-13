@@ -1,8 +1,10 @@
 <?php
+// Include NavWalker Class for for Bootstrap Navigation Menue
+require_once('class-wp-bootstrap-navwalker.php');
 
 /*
         ** Function to add my Custom Scripts 
-        ** Added by @Dina 
+ c       ** Added by @Dina 
         ** wp_enqueue_style(), wp_enqueue_script()
         */
 
@@ -28,8 +30,12 @@ function elzero_scripts()
         */
 function elzero_register_custome_menue()
 {
-        register_nav_menu('bootstrap menu', __('Navigation Bar'));
+        register_nav_menus(array(
+                'bootstrap-menu'   =>  __('Navigation Bar'),
+                'footer-menu'      =>  __('Footer Bar')
+        ));
 }
+
 
 /*
         ** Display the menue
@@ -37,7 +43,13 @@ function elzero_register_custome_menue()
         */
 function elzero_bootstrap_menu()
 {
-        wp_nav_menu();
+        wp_nav_menu(array(
+                'theme_location'   => "bootstrap-menu",
+                'menu_class'       => "navbar-nav ml-auto",
+                'container'        => false,
+                'depth'            => 2,
+                'walker'           => new WP_Bootstrap_Navwalker(),
+        ));
 }
 
 /*
