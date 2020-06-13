@@ -32,6 +32,10 @@ body{
   line-height: 1.7;
   color: #888;
 }
+.main-post i {
+  color: #999999;
+  font-size: 12px;
+}
 /* /Post*/
 
 

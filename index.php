@@ -19,9 +19,9 @@ get_header();
         <div class="col-sm-6">
             <div class="main-post">
                 <h3 class="post-title"> Lean Html </h3>
-                <span class="post-author"> <i class="fa fa-user fa-fw" aria-hidden="true"></i> Dina</span>
-                <span class="post-date"><i class="fa fa-calendar fa-fw" aria-hidden="true"></i>  13/06/2020</span>
-                <span class="post-comments"> <i class="fa fa-comment-o fa-fw" aria-hidden="true"></i>  20 comments</span>
+                <span class="post-author"> <i class="fa fa-user fa-fw" aria-hidden="true"></i> Dina, </span>
+                <span class="post-date"><i class="fa fa-calendar fa-fw" aria-hidden="true"></i>  13/06/2020, </span>
+                <span class="post-comments"> <i class="fa fa-comment fa-fw" aria-hidden="true"></i>  20 comments</span>
                  <img class="post-img img-fluid img-thumbnail" src="http://placehold.it/600x200/300" alt="">
                 <p class="post-content"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem soluta repudiandae eum natus iure doloribus excepturi veniam libero minima fugiat, repellat, nulla dolorum quod! Iusto quibusdam iure distinctio accusantium hic.Beatae ipsum nam fugit delectus quas voluptas.
                 </p>
@@ -35,9 +35,9 @@ get_header();
         <div class="col-sm-6">
             <div class="main-post">
                 <h3 class="post-title"> Lean Html </h3>
-                <span class="post-author"> <i class="fa fa-user fa-fw" aria-hidden="true"></i> Dina</span>
-                <span class="post-date"><i class="fa fa-calendar fa-fw" aria-hidden="true"></i>  13/06/2020</span>
-                <span class="post-comments"> <i class="fa fa-comment-o fa-fw" aria-hidden="true"></i>  20 comments</span>
+                <span class="post-author"> <i class="fa fa-user fa-fw" aria-hidden="true"></i> Dina, </span>
+                <span class="post-date"><i class="fa fa-calendar fa-fw" aria-hidden="true"></i>  13/06/2020, </span>
+                <span class="post-comments"> <i class="fa fa-comment fa-fw" aria-hidden="true"></i>  20 comments</span>
                  <img class="post-img img-fluid img-thumbnail" src="http://placehold.it/600x200/300" alt="">
                 <p class="post-content"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem soluta repudiandae eum natus iure doloribus excepturi veniam libero minima fugiat, repellat, nulla dolorum quod! Iusto quibusdam iure distinctio accusantium hic.Beatae ipsum nam fugit delectus quas voluptas.
                 </p>
@@ -51,9 +51,9 @@ get_header();
         <div class="col-sm-6">
             <div class="main-post">
                 <h3 class="post-title"> Lean Html </h3>
-                <span class="post-author"> <i class="fa fa-user fa-fw" aria-hidden="true"></i> Dina</span>
-                <span class="post-date"><i class="fa fa-calendar fa-fw" aria-hidden="true"></i>  13/06/2020</span>
-                <span class="post-comments"> <i class="fa fa-comment-o fa-fw" aria-hidden="true"></i>  20 comments</span>
+                <span class="post-author"> <i class="fa fa-user fa-fw" aria-hidden="true"></i> Dina, </span>
+                <span class="post-date"><i class="fa fa-calendar fa-fw" aria-hidden="true"></i>  13/06/2020, </span>
+                <span class="post-comments"> <i class="fa fa-comment fa-fw" aria-hidden="true"></i>  20 comments</span>
                  <img class="post-img img-fluid img-thumbnail" src="http://placehold.it/600x200/300" alt="">
                 <p class="post-content"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem soluta repudiandae eum natus iure doloribus excepturi veniam libero minima fugiat, repellat, nulla dolorum quod! Iusto quibusdam iure distinctio accusantium hic.Beatae ipsum nam fugit delectus quas voluptas.
                 </p>
@@ -67,9 +67,9 @@ get_header();
         <div class="col-sm-6">
             <div class="main-post">
                 <h3 class="post-title"> Lean Html </h3>
-                <span class="post-author"> <i class="fa fa-user fa-fw" aria-hidden="true"></i> Dina</span>
-                <span class="post-date"><i class="fa fa-calendar fa-fw" aria-hidden="true"></i>  13/06/2020</span>
-                <span class="post-comments"> <i class="fa fa-comment-o fa-fw" aria-hidden="true"></i>  20 comments</span>
+                <span class="post-author"> <i class="fa fa-user fa-fw" aria-hidden="true"></i> Dina, </span>
+                <span class="post-date"><i class="fa fa-calendar fa-fw" aria-hidden="true"></i>  13/06/2020, </span>
+                <span class="post-comments"> <i class="fa fa-comment fa-fw" aria-hidden="true"></i>  20 comments</span>
                  <img class="post-img img-fluid img-thumbnail" src="http://placehold.it/600x200/300" alt="">
                 <p class="post-content"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem soluta repudiandae eum natus iure doloribus excepturi veniam libero minima fugiat, repellat, nulla dolorum quod! Iusto quibusdam iure distinctio accusantium hic.Beatae ipsum nam fugit delectus quas voluptas.
                 </p>
