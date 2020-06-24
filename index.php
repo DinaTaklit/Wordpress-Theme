@@ -31,6 +31,9 @@ get_header();
                         </h3>  
                         <span class="post-author"> <i class="fa fa-user fa-fw" aria-hidden="true"></i> <?php the_author_posts_link() ?>, </span>
                         <span class="post-date"><i class="fa fa-calendar fa-fw" aria-hidden="true"></i>  <?php the_time('F j, Y')?>, </span>
+                        <span class="post-comments"> <i class="fa fa-comment fa-fw" aria-hidden="true"></i>
+                          <?php comments_popup_link( "0 Comments", "One Comment", "% Comments", "comment-url", " ")?>
+                        </span>
                         <hr>
                         <p class="post-categories">
                             <i class="fa fa-tags fa-fw" aria-hidden="true"></i>
@@ -38,9 +41,8 @@ get_header();
                         </p>                    
                     </div>
                 </div>
-            <?php
-         
-        }
+            <?php     
+        }// End Loop 
     }// End If condition
 ?>
     </div>
