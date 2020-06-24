@@ -36,7 +36,12 @@ get_header();
                                 </span>
                                 <?php the_post_thumbnail( '', ['class' => 'post-img img-fluid img-thumbnail'])?>
                                 <p class="post-content"> 
-                                    <?php the_content('Read More ..') ?>
+                                    <?php 
+                                        // Display the content using the_content that work with "More" blok in post
+                                        //the_content('Read More ..');
+                                        // Display the content using 
+                                        the_excerpt();
+                                    ?>
                                 </p>
                                 <hr>
                                 <p class="post-categories">
