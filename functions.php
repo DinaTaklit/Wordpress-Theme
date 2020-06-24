@@ -59,3 +59,23 @@ function elzero_bootstrap_menu()
         */
 add_action("wp_enqueue_scripts", "elzero_scripts");
 add_action("init", "elzero_register_custome_menue");
+
+
+/*
+        ** Customize the Excerpt word lenght & Read More dots
+        ** Added by @Dina 
+        */
+function elzero_extend_excerpt_length($length){
+        return 35;
+}
+
+function elzero_extend_change_dots($more){
+        return ' ...';
+}
+
+/**
+        ** Add filters 
+ */
+
+add_filter('excerpt_lenght', 'elzero_extend_excerpt_length');
+add_filter('excerpt_more', 'elzero_extend_change_dots');
