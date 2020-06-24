@@ -24,7 +24,18 @@ get_header();
             ?>
                 <div class="col-sm-6">
                     <div class="main-post">
-                        <?php the_title( '<h3 class="post-title">', '</h3>'); ?>
+                        <h3 class="post-title">
+                            <a href="<?php the_permalink( ) ?>">
+                            <?php the_title(); ?>
+                            </a>                        
+                        </h3>  
+                        <span class="post-author"> <i class="fa fa-user fa-fw" aria-hidden="true"></i> <?php the_author_posts_link() ?>, </span>
+                        <span class="post-date"><i class="fa fa-calendar fa-fw" aria-hidden="true"></i>  <?php the_time('F j, Y')?>, </span>
+                        <hr>
+                        <p class="post-categories">
+                            <i class="fa fa-tags fa-fw" aria-hidden="true"></i>
+                            <?php the_category( ', ')?>
+                        </p>                    
                     </div>
                 </div>
             <?php
