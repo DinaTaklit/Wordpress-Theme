@@ -47,7 +47,16 @@ get_header();
                                 <p class="post-categories">
                                     <i class="fa fa-tags fa-fw" aria-hidden="true"></i>
                                     <?php the_category( ', ')?>
-                                </p>                    
+                                </p>   
+                                <p class="post-tags">
+                                    <?php 
+                                        if (has_tag()){
+                                            the_tags();
+                                        }else{
+                                            echo 'Tags: There is no tags';
+                                        }
+                                    ?>
+                                </p>                 
                             </div>
                         </div>
                     <?php     
