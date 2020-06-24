@@ -4,7 +4,7 @@ require_once('class-wp-bootstrap-navwalker.php');
 
 /*
         ** Function to add my Custom Scripts 
- c       ** Added by @Dina 
+        ** Added by @Dina 
         ** wp_enqueue_style(), wp_enqueue_script()
         */
 
