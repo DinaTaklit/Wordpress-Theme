@@ -34,6 +34,7 @@ get_header();
                         <span class="post-comments"> <i class="fa fa-comment fa-fw" aria-hidden="true"></i>
                           <?php comments_popup_link( "0 Comments", "One Comment", "% Comments", "comment-url", " ")?>
                         </span>
+                        <?php the_post_thumbnail( '', ['class' => 'post-img img-fluid img-thumbnail'])?>
                         <hr>
                         <p class="post-categories">
                             <i class="fa fa-tags fa-fw" aria-hidden="true"></i>
