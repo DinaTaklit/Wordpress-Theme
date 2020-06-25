@@ -42,6 +42,31 @@ body {
   color: #999999;
   font-size: 12px;
 }
+.post-pagination {
+  margin: 20px auto 30px;
+  width: 400px;
+  text-align: center;
+}
+.post-pagination a,
+.post-pagination span {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #fff;
+  border-radius: 5px;
+}
+.post-pagination a:first-of-type{
+  margin-right: 10px;
+}
+.post-pagination span{
+  opacity: .5;
+  cursor: not-allowed;
+}
+.post-pagination .prev-span{
+  margin-right: 10px;
+}
+.post-pagination .next-span{
+  margin-left: 10px;
+}
 /* /Post*/
 
 /* Footer */

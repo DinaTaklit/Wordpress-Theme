@@ -65,16 +65,18 @@ get_header();
         ?>
         <?php 
             // Pagination 
+            echo '<div class="post-pagination">';
             if ( get_previous_posts_link() ){
-                previous_posts_link('<< Previous ');
+                previous_posts_link('<i class="fas fa-chevron-left fa-fw fa-lg" aria-hidden="true"></i> Prev');
             }else{
-                echo 'No Previous Posts';
+                echo '<span class="prev-span">Prev</span>';
             }
             if ( get_next_posts_link() ){
-                next_posts_link('>> Next');
+                next_posts_link('Next <i class="fas fa-chevron-right fa-fw fa-lg" aria-hidden="true"></i>');
             }else {
-                echo 'No Next Posts';
+                echo '<span class="next-span">Next</span>';
             }
+            echo '</div>';
         ?>
     </div>
 </div>
