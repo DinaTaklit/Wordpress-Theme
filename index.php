@@ -15,7 +15,7 @@
 get_header();
 ?>
 
-<div class="container">
+<div class="container main-content">
     <div class="row">
         <?php
             if (have_posts()){// Check if there is a post 
@@ -60,8 +60,21 @@ get_header();
                             </div>
                         </div>
                     <?php     
-                }// End Loop 
+                }// End Loop               
             }// End If condition
+        ?>
+        <?php 
+            // Pagination 
+            if ( get_previous_posts_link() ){
+                previous_posts_link('<< Previous ');
+            }else{
+                echo 'No Previous Posts';
+            }
+            if ( get_next_posts_link() ){
+                next_posts_link('>> Next');
+            }else {
+                echo 'No Next Posts';
+            }
         ?>
     </div>
 </div>
