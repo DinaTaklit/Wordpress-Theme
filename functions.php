@@ -18,7 +18,7 @@ function elzero_scripts()
 
         // Add scripts 
         wp_deregister_script("jquery"); // Remove Registration for old JQuery    
-        wp_register_script("jquery", includes_url("/js/jquery/jquert.js"), false, '', true); // Register a new JQuery in the footer
+        wp_register_script("jquery", includes_url("/js/jquery/jquery.js"), false, '', true); // Register a new JQuery in the footer
         wp_enqueue_script("jquery"); // Enquyer the new JQuery
         wp_enqueue_script("bootstrap-js", get_template_directory_uri() . '/js/bootstrap.min.js', array('jquery'), false, true);
         wp_enqueue_script("main-js", get_template_directory_uri() . '/js/main.js', array(), false, true);
